@@ -11,6 +11,9 @@ public class Producto {
     private boolean activo;
     private Integer idCategoria;
 
+    public Producto(){
+    }
+
     public Producto(Integer idProducto, String nombre, String descripcion, BigDecimal precio, Integer stock, boolean activo, Integer idCategoria) {
         this.idProducto = idProducto;
         this.nombre = nombre;
@@ -56,6 +59,22 @@ public class Producto {
 
     public void setIdCategoria(Integer idCategoria) {
         this.idCategoria = idCategoria;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public void setPrecio(BigDecimal precio) {
+        this.precio = precio;
+    }
+
+    public void setStock(Integer stock) {
+        this.stock = stock;
     }
 }
 /*create table producto(
