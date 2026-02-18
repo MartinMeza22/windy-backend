@@ -14,3 +14,8 @@ Backend de práctica desarrollado en Java puro con arquitectura por capas.
 - Arquitectura Repository + Service
 
 Proyecto en evolución (próximamente tests y Spring Boot).
+
+## Testing
+- JUnit 5
+- Mockito
+- Tests unitarios para la capa Service
